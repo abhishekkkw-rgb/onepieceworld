@@ -1,0 +1,7 @@
+{
+  "name": "One Piece World: Grand Fleet & Marine Chronicle",
+  "description": "Explore the One Piece anime world with powerful pirate crews, marine admirals, canonical bounties, interactive Grand Line island chronicles, and a skeletal dragon cursor companion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

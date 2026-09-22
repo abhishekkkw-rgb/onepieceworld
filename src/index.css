@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-pirate {
+    font-family: 'Pirata One', cursive, serif;
+  }
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom scrollbar for Grand Line style */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090b10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a3342;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
+
+/* Parchment texture effect */
+.parchment-texture {
+  background-color: #f7eed7;
+  background-image: radial-gradient(#d6bc8b 1px, transparent 1px), radial-gradient(#d6bc8b 1px, #f7eed7 1px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.wanted-paper {
+  background: linear-gradient(180deg, #ede3c8 0%, #dfd1ad 50%, #d4bf94 100%);
+  box-shadow: inset 0 0 40px rgba(116, 75, 23, 0.25), 0 10px 25px rgba(0, 0, 0, 0.5);
+}
